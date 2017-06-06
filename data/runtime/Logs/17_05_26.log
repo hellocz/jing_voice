@@ -1,0 +1,285 @@
+[ 2017-05-26T09:41:33+08:00 ] 127.0.0.1 /blog-add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.012688s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013938s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.004580s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.006815s ]
+INFO: Run load_lang Behavior [ RunTime:-0.015392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017165s ]
+NOTIC: [2048] Declaration of baseAction::ajaxReturn() should be compatible with that of Action::ajaxReturn() D:\phpStudyB\WWW\baicai1\app\Lib\Action\baseAction.class.php 第 133 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.042730s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003732s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.062881s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.016428s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.065016s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.018600s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.066921s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.020504s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.068510s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.022087s ]
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\4961093c6086b834c5967bfdf5701aca.php 第 6 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\4961093c6086b834c5967bfdf5701aca.php 第 8 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\4961093c6086b834c5967bfdf5701aca.php 第 10 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.068510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048928s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.095426s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.096712s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.097883s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.098948s ]
+INFO: Run content_replace Behavior [ RunTime:-0.100268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007036s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.102959s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002389s ]
+
+[ 2017-05-26T10:14:34+08:00 ] 127.0.0.1 /blog-add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.011160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011311s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003161s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.005402s ]
+INFO: Run load_lang Behavior [ RunTime:-0.010379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012097s ]
+NOTIC: [2048] Declaration of baseAction::ajaxReturn() should be compatible with that of Action::ajaxReturn() D:\phpStudyB\WWW\baicai1\app\Lib\Action\baseAction.class.php 第 133 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.032403s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004090s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.044329s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.007853s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.046389s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.009917s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.048969s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.012497s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.050499s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.014032s ]
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\4961093c6086b834c5967bfdf5701aca.php 第 6 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\4961093c6086b834c5967bfdf5701aca.php 第 8 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\4961093c6086b834c5967bfdf5701aca.php 第 10 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.050499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040610s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.077166s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.078768s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.080121s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.082646s ]
+INFO: Run content_replace Behavior [ RunTime:-0.084562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008955s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.086187s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002199s ]
+
+[ 2017-05-26T10:15:06+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002380s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000064s ]
+INFO: Run load_lang Behavior [ RunTime:-0.003926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011611s ]
+NOTIC: [2048] Declaration of baseAction::ajaxReturn() should be compatible with that of Action::ajaxReturn() D:\phpStudyB\WWW\baicai1\app\Lib\Action\baseAction.class.php 第 133 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.025872s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004448s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.037834s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.007496s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.039502s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.009181s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.042718s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.012377s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.043783s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.013474s ]
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 6 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 8 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 10 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.043783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035267s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.065662s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.066430s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.067175s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.068343s ]
+INFO: Run content_replace Behavior [ RunTime:-0.069680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005040s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.070805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2017-05-26T10:15:09+08:00 ] 127.0.0.1 /blog-index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002272s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002349s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002118s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.004338s ]
+INFO: Run load_lang Behavior [ RunTime:-0.008045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009546s ]
+NOTIC: [2048] Declaration of baseAction::ajaxReturn() should be compatible with that of Action::ajaxReturn() D:\phpStudyB\WWW\baicai1\app\Lib\Action\baseAction.class.php 第 133 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.024319s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003555s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.034107s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006198s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.036001s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.008110s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.038934s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.011066s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.039980s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.012115s ]
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\b9e6d82fc6a9928baaa2818a2b9d458d.php 第 6 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\b9e6d82fc6a9928baaa2818a2b9d458d.php 第 8 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\b9e6d82fc6a9928baaa2818a2b9d458d.php 第 10 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.039980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041499s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.069569s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.071315s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.072056s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.073316s ]
+INFO: Run content_replace Behavior [ RunTime:-0.074843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007682s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.077365s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002332s ]
+
+[ 2017-05-26T10:15:10+08:00 ] 127.0.0.1 /blog-add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003608s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002508s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.004849s ]
+INFO: Run load_lang Behavior [ RunTime:-0.008474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010376s ]
+NOTIC: [2048] Declaration of baseAction::ajaxReturn() should be compatible with that of Action::ajaxReturn() D:\phpStudyB\WWW\baicai1\app\Lib\Action\baseAction.class.php 第 133 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.028423s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005074s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.038744s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.005251s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.040327s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006840s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.046006s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.012512s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.047732s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.014249s ]
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\4961093c6086b834c5967bfdf5701aca.php 第 6 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\4961093c6086b834c5967bfdf5701aca.php 第 8 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\4961093c6086b834c5967bfdf5701aca.php 第 10 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.047732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045200s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.078761s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.079577s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.080238s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.081965s ]
+INFO: Run content_replace Behavior [ RunTime:-0.084117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006966s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.085842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002002s ]
+
+[ 2017-05-26T10:15:52+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001584s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000046s ]
+INFO: Run load_lang Behavior [ RunTime:-0.007194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012415s ]
+NOTIC: [2048] Declaration of baseAction::ajaxReturn() should be compatible with that of Action::ajaxReturn() D:\phpStudyB\WWW\baicai1\app\Lib\Action\baseAction.class.php 第 133 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.022591s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003953s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.031530s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.004990s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.032655s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006123s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.036954s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.010395s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.039170s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.012630s ]
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 6 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 8 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 10 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.039170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039226s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.065892s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.069474s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.072465s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.073540s ]
+INFO: Run content_replace Behavior [ RunTime:-0.075641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011374s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.077316s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2017-05-26T10:15:52+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001430s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000031s ]
+INFO: Run load_lang Behavior [ RunTime:-0.003727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007729s ]
+NOTIC: [2048] Declaration of baseAction::ajaxReturn() should be compatible with that of Action::ajaxReturn() D:\phpStudyB\WWW\baicai1\app\Lib\Action\baseAction.class.php 第 133 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.017934s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003681s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.027718s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006097s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.028206s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006593s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.030466s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.008849s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.032651s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.011009s ]
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 6 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 8 行.
+NOTIC: [8] Undefined variable: page_seo D:\phpStudyB\WWW\baicai1\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 10 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.032651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028687s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.050418s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.051675s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.053483s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054711s ]
+INFO: Run content_replace Behavior [ RunTime:-0.056160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007262s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.057739s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001421s ]
+
