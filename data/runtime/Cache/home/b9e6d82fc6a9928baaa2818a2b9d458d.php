@@ -38,6 +38,12 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="/assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <style  type="text/css">  
+    [v-cloak] {  
+        display: none;  
+    }  
+</style>
 
 
 <link href="/assets/css/blog.css" rel="stylesheet">

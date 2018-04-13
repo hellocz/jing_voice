@@ -1,0 +1,114 @@
+[ 2018-01-22T15:02:39+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run check_ipban Behavior [ RunTime:0.000000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.018001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.026001s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.028001s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.007000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.030001s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.009000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.032002s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.011001s ]
+NOTIC: [8] Undefined variable: page_seo D:\repo\jing_voice\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 6 行.
+NOTIC: [8] Undefined variable: page_seo D:\repo\jing_voice\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 8 行.
+NOTIC: [8] Undefined variable: page_seo D:\repo\jing_voice\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 10 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.051003s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.052003s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054003s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.055003s ]
+INFO: Run content_replace Behavior [ RunTime:-0.056003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.057003s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-22T15:02:42+08:00 ] 127.0.0.1 HTTP://cz1.baicaio.com/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run check_ipban Behavior [ RunTime:0.000000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.011001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.017001s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.019002s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006001s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.021002s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.008001s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.022002s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.009001s ]
+NOTIC: [8] Undefined variable: page_seo D:\repo\jing_voice\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 6 行.
+NOTIC: [8] Undefined variable: page_seo D:\repo\jing_voice\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 8 行.
+NOTIC: [8] Undefined variable: page_seo D:\repo\jing_voice\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 10 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.036003s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038003s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039003s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040003s ]
+INFO: Run content_replace Behavior [ RunTime:-0.041003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042003s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-22T15:02:42+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run check_ipban Behavior [ RunTime:0.000000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.011000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.017001s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.019001s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.021001s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.008000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.023001s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: page_seo D:\repo\jing_voice\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 6 行.
+NOTIC: [8] Undefined variable: page_seo D:\repo\jing_voice\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 8 行.
+NOTIC: [8] Undefined variable: page_seo D:\repo\jing_voice\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 10 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.036002s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038002s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039002s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039002s ]
+INFO: Run content_replace Behavior [ RunTime:-0.041002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
