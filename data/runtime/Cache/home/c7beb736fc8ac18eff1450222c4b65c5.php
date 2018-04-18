@@ -1,17 +1,17 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<!-- saved from url=(0105)http://view.jqueryfuns.com/%E9%A2%84%E8%A7%88-/2018/3/15/c8f70247c1173f53e3fab7a57857b008/hotel_grid.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 		<meta name="format-detection" content="telephone=no">
 		       
-		<link rel="shortcut icon" href="http://view.jqueryfuns.com/%E9%A2%84%E8%A7%88-/2018/3/15/c8f70247c1173f53e3fab7a57857b008/favicon.ico"> 
-		<link href="dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="dist/css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
-		<link href="dist/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="dist/css/font-awesome.min.css">        
-		<link href="dist/css/style.css" rel="stylesheet" type="text/css">     
+		<link rel="shortcut icon" href="favicon.ico"> 
+		<link href="/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="/dist/css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
+		<link href="/dist/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="/dist/css/font-awesome.min.css">        
+		<link href="/dist/css/style.css" rel="stylesheet" type="text/css">     
 		<title>Let's Travel</title>
     <script src="/assets/js/ie-emulation-modes-warning.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/vue"></script>
@@ -21,7 +21,7 @@
     }  
 </style>
 	</head>
-<body data-color="theme-1">
+<body data-color="theme-7" class="noborder">
  
     <div class="style-page">
         <div class="wrappers">
@@ -109,19 +109,25 @@
 	</div>
 </div>
   
-<header class="color-1 hovered menu-3 scrol">
+<header class="color-1 hovered menu-3">
    <div class="container">
    	  <div class="row">
    	  	 <div class="col-md-12">
   	  	    <div class="nav"> 
    	  	    <a href="http://view.jqueryfuns.com/%E9%A2%84%E8%A7%88-/2018/3/15/c8f70247c1173f53e3fab7a57857b008/index.html" class="logo">
-   	  	    	<img src="./details_files/logo_dark.png" alt="lets travel">
+   	  	    	<img src="images/logo_dark.png" alt="lets travel">
    	  	    </a>
    	  	    <div class="nav-menu-icon">
 		      <a href="http://view.jqueryfuns.com/%E9%A2%84%E8%A7%88-/2018/3/15/c8f70247c1173f53e3fab7a57857b008/hotel_grid.html#"><i></i></a>
 		    </div>
    	  	 	<nav class="menu">
 			  	<ul>
+			  		<li class="type-1 active">
+						<a href="http://view.jqueryfuns.com/%E9%A2%84%E8%A7%88-/2018/3/15/c8f70247c1173f53e3fab7a57857b008/hotel_grid.html#">国内折扣<span class="fa fa-angle-down"></span></a>
+					</li>
+					<li class="type-1">
+						<a href="http://view.jqueryfuns.com/%E9%A2%84%E8%A7%88-/2018/3/15/c8f70247c1173f53e3fab7a57857b008/hotel_grid.html#">海淘折扣<span class="fa fa-angle-down"></span></a>
+					</li>
 					<li class="type-1">
 						<a href="http://view.jqueryfuns.com/%E9%A2%84%E8%A7%88-/2018/3/15/c8f70247c1173f53e3fab7a57857b008/hotel_grid.html#">home<span class="fa fa-angle-down"></span></a>
 						<ul class="dropmenu">
@@ -291,7 +297,7 @@
   </header>
 
   	<div class="inner-banner background-block" style="background-image: url(&quot;img/tour_list/inner_banner_1.jpg&quot;);">
-  		<img class="center-image" src="./details_files/inner_banner_1.jpg" alt="" style="display: none;">
+  		<img class="center-image" src="images/inner_banner_3.jpg" alt="" style="display: none;">
 	  	<div class="vertical-align">
 	  		<div class="container">
 	  			<ul class="banner-breadcrumb color-white clearfix">
@@ -609,12 +615,9 @@
 						          	 	<div class="date grid-hidden"><strong>19.07 - 26.07 / 7</strong> night</div>
 						          	    <h4><b>tours in greece</b></h4>
 					          	           <div class="rate-wrap">
-						          	          <div class="rate">
+						          	          <div class="rate"><?php $a=3; for ($i=0;$i<$a;$i++){ ?>
 												<span class="fa fa-star color-yellow"></span>
-												<span class="fa fa-star color-yellow"></span>
-												<span class="fa fa-star color-yellow"></span>
-												<span class="fa fa-star color-yellow"></span>
-												<span class="fa fa-star color-yellow"></span>
+												<?php } ?>
 											  </div>
 										      <i>485 rewies</i> 
 					                       </div> 
@@ -623,6 +626,32 @@
 						            <div class="title hotel-right clearfix cell-view"> 
 						            	<div class="hotel-person color-dark-2">from <span class="color-blue">$273</span> person</div>
 										<a class="c-button b-40 bg-blue hv-blue-o grid-hidden" href="http://view.jqueryfuns.com/%E9%A2%84%E8%A7%88-/2018/3/15/c8f70247c1173f53e3fab7a57857b008/hotel_grid.html#">view more</a>
+						            </div>
+					            </div>
+					        </div>  						
+  						</div>
+
+  						<div v-for="item in items" class="list-item-entry">
+					        <div class="hotel-item style-3 bg-white">
+					        	<div class="table-view">
+						          	<div class="radius-top cell-view">
+						          	 	 <a :href="item.link" ><img :src="item.img" :alt="item.title"></a>
+						          	</div>
+						          	<div class="title hotel-middle clearfix cell-view">
+						          	 	<div class="date list-hidden">July <strong>19th</strong> to July <strong>26th</strong></div>
+						          	 	<div class="date grid-hidden"><strong>19.07 - 26.07 / 7</strong> night</div>
+						          	    <a :href="item.go_link" ><h4><b v-cloak>{{item.title}}</b></h4></a>
+					          	           <div class="rate-wrap">
+						          	          <div class="rate" v-for="n in item.zan">
+												<span class="fa fa-star color-yellow"></span>
+											  </div>
+										      <i v-cloak>{{item.zan}} rewies</i> 
+					                       </div> 
+							            <p class="f-14 grid-hidden" v-cloak>{{item.content}}</p>
+						            </div>
+						            <div class="title hotel-right clearfix cell-view"> 
+						            	<!--<div class="hotel-person color-dark-2">from <span class="color-blue">$273</span> person</div>-->
+										<a class="c-button b-40 bg-blue hv-blue-o grid-hidden" href="http://view.jqueryfuns.com/%E9%A2%84%E8%A7%88-/2018/3/15/c8f70247c1173f53e3fab7a57857b008/hotel_grid.html#">直接购买</a>
 						            </div>
 					            </div>
 					        </div>  						
@@ -747,14 +776,14 @@
     	  </div>
     	</div>
     </footer>
-<script src="dist/js/jquery-2.1.4.min.js"></script>
-<script src="dist/js/bootstrap.min.js"></script>
-<script src="dist/js/jquery-ui.min.js"></script>
-<script src="dist/js/idangerous.swiper.min.js"></script>
-<script src="dist/js/jquery.viewportchecker.min.js"></script>
-<script src="dist/js/isotope.pkgd.min.js"></script>
-<script src="dist/js/jquery.mousewheel.min.js"></script>
-<script src="dist/js/all.js"></script>
+<script src="/dist/js/jquery-2.1.4.min.js"></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<script src="/dist/js/jquery-ui.min.js"></script>
+<script src="/dist/js/idangerous.swiper.min.js"></script>
+<script src="/dist/js/jquery.viewportchecker.min.js"></script>
+<script src="/dist/js/isotope.pkgd.min.js"></script>
+<script src="/dist/js/jquery.mousewheel.min.js"></script>
+<script src="/dist/js/all.js"></script>
 <script type="text/javascript">
   var app4 = new Vue({
   el: '.list-content',

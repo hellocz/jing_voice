@@ -1,0 +1,1102 @@
+[ 2018-04-17T16:03:27+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001000s ]
+NOTIC: [2048] Declaration of settingModel::_before_write() should be compatible with Model::_before_write(&$data) D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `try_setting` [ RunTime:0.011000s ]
+SQL: SELECT `name`,`data` FROM `try_setting`  [ RunTime:0.002001s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 9 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 40 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 67 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 43 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 195 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 21 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 20 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 7 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 197 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 2 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 3 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 22 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 12 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 19 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 24 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 4 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 12832 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 40 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 5 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 12 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 3 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 27 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 25 bytes D:\repo\jing_voice\app\Lib\Model\settingModel.class.php 第 13 行.
+INFO: Run check_ipban Behavior [ RunTime:-0.003000s ]
+INFO: Run load_lang Behavior [ RunTime:-1.065061s ]
+INFO: [ app_begin ] --END-- [ RunTime:1.068061s ]
+NOTIC: [2048] Declaration of oauthModel::_before_write() should be compatible with Model::_before_write(&$data) D:\repo\jing_voice\app\Lib\Model\oauthModel.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `try_oauth` [ RunTime:0.011000s ]
+SQL: SELECT `code`,`name`,`config` FROM `try_oauth` WHERE ( `status` = 1 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.008001s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.007001s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.008000s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.008001s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.275015s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.006001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.015000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.006001s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523948607 and 1523952207 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.265015s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523865807 and 1523952207 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.276016s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.011115s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.019115s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.021115s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.008000s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-2.021115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.045117s ]
+INFO: Run TokenBuild Behavior [ RunTime:-2.046117s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-2.047117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.047117s ]
+INFO: Run content_replace Behavior [ RunTime:-2.048117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.049117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T16:03:28+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:03:28+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:03:29+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:03:58+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002000s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.004000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.010001s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.008000s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.009001s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.007000s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.286017s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.008000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.008001s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523948637 and 1523952237 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.275016s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523865837 and 1523952237 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.266015s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.007115s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.017115s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.021116s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.010001s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-2.021116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.047117s ]
+INFO: Run TokenBuild Behavior [ RunTime:-2.049117s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-2.050117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.052117s ]
+INFO: Run content_replace Behavior [ RunTime:-2.053117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.055118s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-17T16:03:58+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:03:58+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:03:59+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:04:17+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001000s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.001000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.011001s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.007001s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.006000s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.006001s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.267015s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.008000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523948656 and 1523952256 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.272015s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523865856 and 1523952256 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.267016s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.937111s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.942111s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.942111s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.003000s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-1.942111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.963112s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.964112s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.964112s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.965112s ]
+INFO: Run content_replace Behavior [ RunTime:-1.966112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.966112s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T16:04:17+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:04:17+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:04:18+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:04:29+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.001000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.010001s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.006001s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.008000s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.006001s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.267015s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.008000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.006001s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523948668 and 1523952268 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.274016s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523865868 and 1523952268 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.266015s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.950112s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.953112s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.954112s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.003000s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-1.954112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.972113s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.973113s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.974113s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.974113s ]
+INFO: Run content_replace Behavior [ RunTime:-1.975113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.976113s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-17T16:04:29+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:04:29+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:04:30+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:04:51+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.001000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.011000s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.010001s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.007000s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.007001s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.276015s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.008001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523948691 and 1523952291 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.275015s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523865891 and 1523952291 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.265015s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.962112s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.965113s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.002001s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.966113s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.003001s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-1.966113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.984114s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.985114s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.986114s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.986114s ]
+INFO: Run content_replace Behavior [ RunTime:-1.987114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.988114s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-17T16:04:51+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:04:51+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:04:52+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:05:34+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001000s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.002000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.008001s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.012001s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.006000s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.008001s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.270015s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.007001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.009001s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523948734 and 1523952334 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.280016s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523865934 and 1523952334 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.266016s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.002115s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.008115s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.009115s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.005000s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-2.009115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.031116s ]
+INFO: Run TokenBuild Behavior [ RunTime:-2.032116s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-2.033116s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.033116s ]
+INFO: Run content_replace Behavior [ RunTime:-2.034116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.035116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-17T16:05:34+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:05:35+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:05:35+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:05:54+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002000s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.004001s ]
+INFO: Run load_lang Behavior [ RunTime:-0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.013000s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.008001s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.006000s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.006000s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.270016s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.008000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523948754 and 1523952354 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.266015s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523865954 and 1523952354 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.270015s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.943111s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.949112s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.951112s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006000s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-1.951112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.970113s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.971113s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.972113s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.972113s ]
+INFO: Run content_replace Behavior [ RunTime:-1.973113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.974113s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T16:05:54+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:05:55+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:05:55+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:06:23+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002000s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.004000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.010001s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.007001s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.006000s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.005001s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.271015s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.007001s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523948783 and 1523952383 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.268015s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523865983 and 1523952383 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.279016s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.944111s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.949112s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.003001s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.951112s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.005001s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-1.951112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.971113s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.972113s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.973113s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.973113s ]
+INFO: Run content_replace Behavior [ RunTime:-1.974113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.974113s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T16:06:23+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:06:24+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:06:24+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:06:35+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002000s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.003001s ]
+INFO: Run load_lang Behavior [ RunTime:-0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.009000s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.009000s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.007000s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.007000s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.298018s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.010000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.008000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523948794 and 1523952394 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.283016s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523865994 and 1523952394 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.271016s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.018116s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.023116s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.024116s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.004000s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-2.024116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.042117s ]
+INFO: Run TokenBuild Behavior [ RunTime:-2.043117s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-2.044117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.044117s ]
+INFO: Run content_replace Behavior [ RunTime:-2.045117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.046117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-17T16:06:35+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:06:35+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:06:36+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:07:06+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001001s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.002001s ]
+INFO: Run load_lang Behavior [ RunTime:-0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.010001s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.008001s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.007000s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.006001s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.275015s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.006001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.007001s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523948825 and 1523952425 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.286017s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523866025 and 1523952425 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.267015s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.949112s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.953112s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.953112s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.003000s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-1.953112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.971113s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.972113s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.973113s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.974113s ]
+INFO: Run content_replace Behavior [ RunTime:-1.975113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.976114s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-17T16:07:06+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:07:06+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:07:07+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:09:56+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002001s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.003001s ]
+INFO: Run load_lang Behavior [ RunTime:-0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.011000s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.007000s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.006000s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.006000s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.321019s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.018001s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523948995 and 1523952595 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.295017s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523866195 and 1523952595 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.298017s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.056118s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.061118s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.063118s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006000s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-2.063118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.083120s ]
+INFO: Run TokenBuild Behavior [ RunTime:-2.084120s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-2.084120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.085120s ]
+INFO: Run content_replace Behavior [ RunTime:-2.085120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.086120s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T16:09:56+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:09:56+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:09:56+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:10:46+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002000s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.003000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.010000s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.008000s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.006001s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.006000s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.275016s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.006001s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523949045 and 1523952645 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.268015s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523866245 and 1523952645 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.268016s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.992114s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.996114s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.997114s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.004000s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-1.997114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.015115s ]
+INFO: Run TokenBuild Behavior [ RunTime:-2.016115s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-2.017115s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.018115s ]
+INFO: Run content_replace Behavior [ RunTime:-2.018115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.019115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T16:10:46+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:10:46+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:10:47+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:13:29+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003001s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.004001s ]
+INFO: Run load_lang Behavior [ RunTime:-0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.010000s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.006000s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.007001s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.006000s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.269016s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523949208 and 1523952808 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.306018s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523866408 and 1523952808 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.299017s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.005115s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.011115s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.011115s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.004000s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-2.011115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.033117s ]
+INFO: Run TokenBuild Behavior [ RunTime:-2.034117s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-2.034117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.035117s ]
+INFO: Run content_replace Behavior [ RunTime:-2.036117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.037117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-17T16:13:29+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:13:29+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:13:30+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:21:47+08:00 ] 127.0.0.1 /item/232651.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002000s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.003000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.012001s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232651 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.006001s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = -1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.007000s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232651 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.007001s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:1.272072s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.009000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232651 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232651 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232651 ) [ RunTime:0.000000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.008001s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523949706 and 1523953306 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.271015s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523866906 and 1523953306 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.281017s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.970170s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.976170s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.978170s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006000s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-2.978170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.999171s ]
+INFO: Run TokenBuild Behavior [ RunTime:-3.000171s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-3.001171s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-3.002171s ]
+INFO: Run content_replace Behavior [ RunTime:-3.003171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-3.004172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T16:21:47+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:21:47+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:21:48+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:22:20+08:00 ] 127.0.0.1 /item/232651.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001000s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.001000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.013001s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232651 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.008000s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = -1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.008001s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232651 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.007000s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.277016s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232651 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232651 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232651 ) [ RunTime:0.001000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523949739 and 1523953339 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.272016s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523866939 and 1523953339 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.268015s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.937111s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.941111s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.941111s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.003000s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-1.941111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.960112s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.961112s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.962112s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.962112s ]
+INFO: Run content_replace Behavior [ RunTime:-1.963112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.964113s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-17T16:22:20+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:22:20+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:22:20+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:25:00+08:00 ] 127.0.0.1 /item/232651.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002000s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.003000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.009001s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232651 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.008001s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = -1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.006000s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232651 ) ORDER BY ordid  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.006001s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:0.311017s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232651 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232651 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232651 ) [ RunTime:0.001000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523949900 and 1523953500 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.319018s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523867100 and 1523953500 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.291017s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.067119s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.072119s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.073119s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.004000s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-2.073119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.095120s ]
+INFO: Run TokenBuild Behavior [ RunTime:-2.096120s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-2.097120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.100120s ]
+INFO: Run content_replace Behavior [ RunTime:-2.101121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.102121s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-17T16:25:01+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:25:01+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:25:01+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon
+[ 2018-04-17T16:42:24+08:00 ] 127.0.0.1 /item/232650.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002000s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.003000s ]
+INFO: Run load_lang Behavior [ RunTime:-0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `try_item` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `try_item_diu` [ RunTime:0.011001s ]
+SQL: SELECT `id`,`cate_id`,`title`,`uid`,`uname`,`intro`,`price`,`url`,`likes`,`comments`,`tag_cache`,`seo_title`,`seo_keys`,`seo_desc`,`add_time`,`content`,`zan`,`status`,`orig_id`,`go_link`,`ds_time`,`remark` FROM `try_item` WHERE ( `id` = 232650 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `try_admin` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `try_admin` WHERE username = 'hellocz' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_orig` [ RunTime:0.010001s ]
+SQL: SELECT `name`,`img` FROM `try_item_orig` WHERE ( `id` = 596 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `try_item_img` [ RunTime:0.007000s ]
+SQL: SELECT `url` FROM `try_item_img` WHERE ( `item_id` = 232650 ) ORDER BY ordid  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `try_item_tag` [ RunTime:0.006001s ]
+NOTIC: [2] array_slice() expects parameter 1 to be array, boolean given D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 52 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 53 行.
+SQL: SELECT `id`,`img`,`intro`,`price`,`title` FROM `try_item` WHERE ishot=1 AND status=1 ORDER BY add_time desc,id desc LIMIT 8   [ RunTime:1.607092s ]
+SQL: SHOW COLUMNS FROM `try_item_comment` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `try_item_comment` WHERE ( `item_id` = 232650 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `try_item_comment` WHERE ( `item_id` = 232650 ) ORDER BY id DESC LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: UPDATE `try_item` SET `hits`=hits+1 WHERE ( `id` = 232650 ) [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `try_go` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `try_go` WHERE ( `show` = '01zmjl_mjbua2_y5jv0s_egxqgg' ) LIMIT 1   [ RunTime:0.017001s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\home\itemAction.class.php 第 101 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 54 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\repo\jing_voice\app\Lib\Action\frontendAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `try_item_cate` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`name`,`pid` FROM `try_item_cate` WHERE id=1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523950943 and 1523954543 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.270015s ]
+SQL: SELECT id,title,img,price from try_item  WHERE add_time between 1523868143 and 1523954543 ORDER BY hits desc,add_time desc LIMIT 9 [ RunTime:0.294017s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-3.325190s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-3.333191s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.005001s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-3.334191s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006001s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-3.334191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-3.359192s ]
+INFO: Run TokenBuild Behavior [ RunTime:-3.360192s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-3.361192s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-3.362192s ]
+INFO: Run content_replace Behavior [ RunTime:-3.364192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-3.365192s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-17T16:42:24+08:00 ] ERR: (ThinkException) 无法加载模块:item/images/logo_dark
+[ 2018-04-17T16:42:24+08:00 ] ERR: (ThinkException) 无法加载模块:dist/fonts/fontawesome
+[ 2018-04-17T16:42:24+08:00 ] ERR: (ThinkException) 无法加载模块:item/favicon

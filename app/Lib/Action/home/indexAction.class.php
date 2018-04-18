@@ -5,6 +5,36 @@ class indexAction extends frontendAction {
      	$this->display();
      }
      public function details(){
+     	$type = $this->_get('type','trim');
+		$dss = $this->_get('dss','trim');
+        //热门
+		$mod=M("item");
+		if($type==""||$type=='isnice'){
+			$where=" and isnice=1 ";
+			$order =" add_time desc";
+			$tab = "isnice";
+		}else{
+			$where=" and isbao=1 ";
+			$order =" add_time desc";
+			$tab = "isbao";
+		}	
+		$time=time();		
+		$pagesize=18;
+		$count = 1000; //$mod->where("status=1 and add_time<$time ".$where)->count();
+		$pager = $this->_pager($count,$pagesize);
+		if($tab =="isnice"){
+     	$list = $mod->field('id,title,img,zan,hits,content')->where("status=1 and add_time<$time and ds_time < $time ".$where)->limit($pager->firstRow.",".$pager->listRows)->order($order)->select();
+     }
+
+     foreach($list as $key=>$val){
+
+     	$list[$key]['content'] = mb_substr(trim(strip_tags($list[$key]['content'])),0,100,"utf-8");
+				
+		$list[$key]['zan'] = rand(1,5);//$list[$key]['zan']   +intval($list[$key]['hits'] /10);
+		$list[$key]['link'] = U('item/index',array('id'=>$list[$key]['id']));
+			}
+     $this->assign('item_list',json_encode($list));
+
      	$this->display();
      }
     public function index() {
