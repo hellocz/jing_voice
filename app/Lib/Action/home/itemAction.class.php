@@ -19,28 +19,19 @@ class itemAction extends frontendAction {
         $id = $this->_get('id', 'intval');
         !$id && $this->_404();
         $item_mod = M('item');
-        $item_mod_diu = M('item_diu');
-        $isbao = $this->_get('isbao', 'intval');
-        if($isbao==1){
-        $item =  $item_mod_diu->field('id,cate_id,title,uid,uname,intro,price,url,likes,comments,tag_cache,seo_title,seo_keys,seo_desc,add_time,content,zan,status,orig_id,go_link,ds_time,remark')->where(array('id' => $id))->find();
-        }else{
-        $item = $item_mod->field('id,cate_id,title,uid,uname,intro,price,url,likes,comments,tag_cache,seo_title,seo_keys,seo_desc,add_time,content,zan,status,orig_id,go_link,ds_time,remark')->where(array('id' => $id))->find();
-        }
+        $item = $item_mod->field('img,id,cate_id,title,uid,uname,intro,price,url,likes,comments,tag_cache,seo_title,seo_keys,seo_desc,add_time,content,zan,status,orig_id,go_link,ds_time,remark')->where(array('id' => $id))->find();
         !$item && $this->error('该信息不存在或已删除');
         if(M('admin')->where("username = '".$item['uname']."'")->find()){
             $item['uid'] = 0;
         }
         ($item['status']==0)&&$this->error('该信息未通过审核');
            if(isset($_SESSION['admin']['role_id']) && $_SESSION['admin']['role_id'] == 1) {
-           
         }
         else{
         ($item['add_time']>time() || $item['add_time']==0)&&$this->error('该信息暂未发布' );
        }
         //来源
         $orig = M('item_orig')->field('name,img')->find($item['orig_id']);
-        //商品相册
-        $img_list = M('item_img')->field('url')->where(array('item_id' => $id))->order('ordid')->select();
         //标签
         $item['tag_list'] = unserialize($item['tag_cache']);
         
@@ -59,6 +50,7 @@ class itemAction extends frontendAction {
     
         $is_hot = $item_mod->field("id,img,intro,price,title")->where('ishot=1 AND status=1')->order('add_time desc,id desc')->limit(8)->select();
         
+        var_dump($is_hot);
         //第一页评论不使用AJAX利于SEO
         $item_comment_mod = M('item_comment');
         $pagesize = 8;

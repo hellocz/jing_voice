@@ -183,33 +183,34 @@ class Page {
         $upRow          =   $this->nowPage-1;
         $downRow        =   $this->nowPage+1;
         if ($upRow>0){
-            $upPage     =   "<a href='".str_replace('__PAGE__',$upRow,$url)."'>上一页</a>";
+            $upPage     =   "<a href='".str_replace('__PAGE__',$upRow,$url)."' class=\"c-button b-40 bg-blue-2 hv-blue-2-o fl\">上一页</a>";
         }else{
             $upPage     =   '';
         }
 
         if ($downRow <= $this->totalPages){
-            $downPage   =   "<a href='".str_replace('__PAGE__',$downRow,$url)."'>下一页</a>";
+            $downPage   =   "<a href='".str_replace('__PAGE__',$downRow,$url)."' class=\"c-button b-40 bg-blue-2 hv-blue-2-o fr\">下一页</a>";
         }else{
             $downPage   =   '';
         }
 
         // << < > >>
+        /*
         $theFirst = $theEnd = '';
         if ($this->totalPages > $this->rollPage) {
             if($this->nowPage - $middle < 1){
                 $theFirst   =   '';
             }else{
-                $theFirst   =   "<a href='".str_replace('__PAGE__',1,$url)."' >1</a> <i>...</i>";
+                $theFirst   =   "<a href='".str_replace('__PAGE__',1,$url)."' class=\"c-button b-40 bg-blue-2 hv-blue-2-o fl\">1</a> <i>...</i>";
             }
             if($this->nowPage + $middle > $this->totalPages){
                 $theEnd     =   '';
             }else{
                 $theEndRow  =   $this->totalPages;
-                $theEnd     =   "<i>...</i> <a href='".str_replace('__PAGE__',$theEndRow,$url)."' >".$theEndRow."</a>";
+                $theEnd     =   "<i>...</i> <a href='".str_replace('__PAGE__',$theEndRow,$url)."' class=\"c-button b-40 bg-blue-2 hv-blue-2-o fl\">".$theEndRow."</a>";
             }
         }
-
+    */
         // 1 2 3 4 5
         $linkPage = "";
         if ($this->totalPages != 1) {
@@ -225,13 +226,15 @@ class Page {
             }
             $start < 1 && $start = 1;
             $end > $this->totalPages && $end = $this->totalPages;
+            $linkPage .="<ul class=\"cp_content color-1\">";
             for ($page = $start; $page <= $end; $page++) {
                 if ($page != $this->nowPage) {
-                    $linkPage .= " <a href='".str_replace('__PAGE__',$page,$url)."'>&nbsp;".$page."&nbsp;</a>";
+                    $linkPage .= " <li><a href='".str_replace('__PAGE__',$page,$url)."'>&nbsp;".$page."&nbsp;</a></li>";
                 } else {
-                    $linkPage .= " <a class='w_pag_1'>".$page."</a>";
+                    $linkPage .= "<li class=\"active\"> <a class='w_pag_1'>".$page."</a></li>";
                 }
             }
+            $linkPage .= "</ul>";
         }
 
         $pageStr     =   str_replace(

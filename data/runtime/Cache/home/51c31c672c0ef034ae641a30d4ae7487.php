@@ -216,6 +216,11 @@
 	<div class="container">
 		<div class="detail-header">
 			<div class="row">
+				<ul class="list-breadcrumb clearfix">
+  				<li><a class="color-grey link-dr-blue" href="#">home</a> /</li>
+  				<li><a class="color-grey link-dr-blue" href="#">hotels</a> /</li>
+  				<li><span class="color-dr-blue">list hotels</span></li>
+  			</ul>
 				<div class="col-xs-12 col-sm-8">
 					<h3 class="detail-title color-dark-2"><?php echo ($item["title"]); ?></h3>
 					<div class="detail-rate rate-wrap clearfix">
@@ -330,28 +335,11 @@
 	                        <div class="acc-panel">
 	                            <div class="acc-title"><span class="acc-icon"></span>如果您觉得这个商品贵了?</div>
 	                            <div class="acc-body">
-									<h5>metus Aenean eget massa</h5>
-									<p>Mauris posuere diam at enim malesuada, ac malesuada erat auctor. Ut porta mattis tellus eu sagittis. Nunc maximus ipsum a mattis dignissim. Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Ut porta mattis tellus eu sagittis. Nunc maximus ipsum a mattis dignissim.</p>
-									<div class="row">
-										<div class="col-xs-12 col-sm-6">
-											<ul>
-												<li>Shopping history</li>
-												<li>Hot offers according your settings</li>
-												<li>Multi-product search</li>
-												<li>Opportunity to share with friends</li>
-												<li>User-friendly interface</li>
-											</ul>
-										</div>
-										<div class="col-xs-12 col-sm-6">
-											<ul>
-												<li>Shopping history</li>
-												<li>Hot offers according your settings</li>
-												<li>Multi-product search</li>
-												<li>Opportunity to share with friends</li>
-												<li>User-friendly interface</li>
-											</ul>									
-										</div>
-									</div>
+									<div class="form-group">
+    <label for="exampleInputEmail2">去淘宝找券</label>
+    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="品牌 商品名">
+  </div>
+  <button type="submit" class="btn btn-default">搜索</button>
 	                            </div>
 	                        </div>
 	                        <div class="acc-panel">
@@ -437,21 +425,19 @@
        				</div>
 
 					<div class="popular-tours bg-grey-2">
-						<h4 class="color-dark-2">popular tours</h4>
+						<h4 class="color-dark-2">相似产品</h4>
 						<div class="hotel-small style-2 clearfix">
 							<a class="hotel-img black-hover" href="http://view.jqueryfuns.com/%E9%A2%84%E8%A7%88-/2018/3/15/c8f70247c1173f53e3fab7a57857b008/cruise_detail.html#">
-								<img class="img-responsive radius-0" src="" alt="">
+								<img class="img-responsive radius-0" src="<?php echo ($item["img"]); ?>" alt="<?php echo ($item["title"]); ?>">
 								<div class="tour-layer delay-1"></div>        						
 							</a>
 							<div class="hotel-desc">
-		    					<h5><span class="color-dark-2"><strong>$273</strong>/ person</span></h5>
-		    					<h4>HAWAIAN CRUISES</h4>
-								<div class="hotel-loc tt"><strong>19.07 - 26.07 / 7</strong> nights</div>
+		    					<h4><?php echo ($item["title"]); ?></h4>
 							</div>
 						</div>
 						<div class="hotel-small style-2 clearfix">
 							<a class="hotel-img black-hover" href="http://view.jqueryfuns.com/%E9%A2%84%E8%A7%88-/2018/3/15/c8f70247c1173f53e3fab7a57857b008/cruise_detail.html#">
-								<img class="img-responsive radius-0" src="" alt="">
+								<img class="img-responsive radius-0" src="<?php echo ($item["img"]); ?>" alt="<?php echo ($item["title"]); ?>">
 								<div class="tour-layer delay-1"></div>        						
 							</a>
 							<div class="hotel-desc">
@@ -462,7 +448,7 @@
 						</div>
 						<div class="hotel-small style-2 clearfix">
 							<a class="hotel-img black-hover" href="http://view.jqueryfuns.com/%E9%A2%84%E8%A7%88-/2018/3/15/c8f70247c1173f53e3fab7a57857b008/cruise_detail.html#">
-								<img class="img-responsive radius-0" src="" alt="">
+								<img class="img-responsive radius-0" src="<?php echo ($item["img"]); ?>" alt="<?php echo ($item["title"]); ?>">
 								<div class="tour-layer delay-1"></div>        						
 							</a>
 							<div class="hotel-desc">
@@ -473,7 +459,7 @@
 						</div>											
 					</div>
 
-					<div class="sidebar-text-label bg-dr-blue-2 color-white">useful information</div>
+					<div class="sidebar-text-label bg-dr-blue-2 color-white">分享给朋友</div>
 
 					<div class="help-contact bg-grey-2">
 						<h4 class="color-dark-2">Need Help?</h4>
@@ -486,10 +472,10 @@
        	</div>
        	<div class="may-interested padd-90">
 	       	<div class="row">
-	       		<div class="col-mob-12 col-xs-6 col-sm-6 col-md-3">
+	       		<div class="col-mob-12 col-xs-3 col-sm-6 col-md-3">
 			        <div class="hotel-item style-6">
 			          	<div class="radius-top">
-			          	 	<img src="" alt="">	          	 	 
+			          	 	<img src="<?php echo ($item["img"]); ?>" alt="<?php echo ($item["title"]); ?>">
 			          	</div>
 			          	<div class="title">
 							<div class="tour-info-line clearfix">
@@ -523,7 +509,7 @@
 	       		<div class="col-mob-12 col-xs-6 col-sm-6 col-md-3">
 			        <div class="hotel-item style-6">
 			          	<div class="radius-top">
-			          	 	<img src="" alt="">	          	 	 
+			          	 	<img src="<?php echo ($item["img"]); ?>" alt="<?php echo ($item["title"]); ?>">      	 	 
 			          	</div>
 			          	<div class="title">
 							<div class="tour-info-line clearfix">
@@ -557,7 +543,7 @@
 	       		<div class="col-mob-12 col-xs-6 col-sm-6 col-md-3">
 			        <div class="hotel-item style-6">
 			          	<div class="radius-top">
-			          	 	<img src="" alt="">	          	 	 
+			          	 	<img src="<?php echo ($item["img"]); ?>" alt="<?php echo ($item["title"]); ?>">
 			          	</div>
 			          	<div class="title">
 							<div class="tour-info-line clearfix">
@@ -591,7 +577,7 @@
 	       		<div class="col-mob-12 col-xs-6 col-sm-6 col-md-3">
 			        <div class="hotel-item style-6">
 			          	<div class="radius-top">
-			          	 	<img src="" alt="">	          	 	 
+			          	 	<img src="<?php echo ($item["img"]); ?>" alt="<?php echo ($item["title"]); ?>">
 			          	</div>
 			          	<div class="title">
 							<div class="tour-info-line clearfix">

@@ -5,37 +5,54 @@ class indexAction extends frontendAction {
      	$this->display();
      }
      public function details(){
-     	$type = $this->_get('type','trim');
-		$dss = $this->_get('dss','trim');
-        //热门
-		$mod=M("item");
-		if($type==""||$type=='isnice'){
-			$where=" and isnice=1 ";
-			$order =" add_time desc";
-			$tab = "isnice";
-		}else{
-			$where=" and isbao=1 ";
-			$order =" add_time desc";
-			$tab = "isbao";
-		}	
-		$time=time();		
-		$pagesize=18;
-		$count = 1000; //$mod->where("status=1 and add_time<$time ".$where)->count();
+     	$p = $this->_get("p",'intval',1);
+		$type = $this->_get('type','trim');
+		$mod = M("item");
+		$time = time();
+		$pagesize = 18;
+		$count = $mod->field('id,title,img,hits,content')->where($where)->count("id");
+		$where['status'] = 1;
+		$where['add_time'] = array("lt",$time);
+		$order = "add_time desc";
 		$pager = $this->_pager($count,$pagesize);
-		if($tab =="isnice"){
-     	$list = $mod->field('id,title,img,zan,hits,content')->where("status=1 and add_time<$time and ds_time < $time ".$where)->limit($pager->firstRow.",".$pager->listRows)->order($order)->select();
+		$list = $mod->field('id,title,img,hits,content')->where($where)->limit($pager->firstRow.",".$pager->listRows)->order($order)->select();
+
+     foreach($list as $key=>$val){
+
+     	$list[$key]['content'] = mb_substr(trim(strip_tags($list[$key]['content'])),0,200,"utf-8");
+     	$list[$key]['title'] = str_replace("\t", "", $list[$key]['title']);
+				
+		$list[$key]['zan'] = "3";//$list[$key]['zan']   +intval($list[$key]['hits'] /10);
+		$list[$key]['link'] = U('item/index',array('id'=>$list[$key]['id']));
+			}
+		$this->assign("list",json_encode($list));
+		$this->assign('pagebar',$pager->fshow());
+     	$this->display();
      }
+
+     public function items1(){
+     	$p = $this->_post("p",'intval',1);
+		$type = $this->_post('type','trim');
+		$mod = M("item");
+		$time = time();
+		$pagesize = 18;
+		$count = 1000;
+		$where['status'] = 1;
+		$where['add_time'] = array("lt",$time);
+		$order = "add_time desc";
+
+		$list = $mod->field('id,title,img,hits,content')->where($where)->limit($pagesize * $p,$pagesize)->order($order)->select();
 
      foreach($list as $key=>$val){
 
      	$list[$key]['content'] = mb_substr(trim(strip_tags($list[$key]['content'])),0,100,"utf-8");
+     	$list[$key]['title'] = addslashes(str_replace("\t", "", $list[$key]['title']));
 				
-		$list[$key]['zan'] = rand(1,5);//$list[$key]['zan']   +intval($list[$key]['hits'] /10);
+		$list[$key]['zan'] = "3";//$list[$key]['zan']   +intval($list[$key]['hits'] /10);
 		$list[$key]['link'] = U('item/index',array('id'=>$list[$key]['id']));
 			}
-     $this->assign('item_list',json_encode($list));
+		$this->ajaxReturn(1,"success",$list);
 
-     	$this->display();
      }
     public function index() {
 		function is_mobile(){

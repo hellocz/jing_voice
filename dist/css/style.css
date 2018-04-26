@@ -2032,7 +2032,7 @@ nav li.type-4 .dropmenu .fa-chevron-right { display: none; }
 
 .radius-top { position: relative; width: 100%; -moz-border-radius-topleft: 5px; border-top-left-radius: 5px; -moz-border-radius-topright: 5px; border-top-right-radius: 5px; overflow: hidden; }
 
-.radius-top img { width: 100%; height: auto; display: block; }
+.radius-top img { max-width: 185px; height: 185px;margin: 0 auto; display: block; }
 
 .hotel-item .title { position: relative; width: 100%; padding: 24px 20px; border: 1px solid #f7f7f7; -moz-border-radius-bottomleft: 5px; border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; border-bottom-right-radius: 5px;}
 
@@ -2262,7 +2262,7 @@ nav li.type-4 .dropmenu .fa-chevron-right { display: none; }
 
 .hotel-small { margin-bottom: 31px; }
 
-.hotel-small .hotel-img { display: block; width: 81px; float: left; overflow: hidden;}
+.hotel-small .hotel-img {vertical-align: middle;background:white; display: block; width: 81px; float: left; overflow: hidden;}
 
 .hotel-small .hotel-desc { margin-left: 100px; margin-top: 3px; }
 
@@ -5246,7 +5246,7 @@ footer.bg-white .form-input input {color: #222;}
 .entry:hover:before {opacity: 1;}
 .style-page .input-entry.color-3 .checkbox-text {position: relative; float: left; padding-top: 0px;}
 .item-block.style-3 {border-radius: 5px;}
-.hotel-img .img-responsive { border-radius: 5px;} 
+.hotel-img .img-responsive { border-radius: 5px;max-width: 120px;max-height: 80px;margin: 0 auto;} 
 .style-5.hover-blue-3.background-block {border-radius: 5px;}
 .tour-block-s-5 .res-img {border-radius: 5px;}
 .link-dr-blue:hover {color: #fff;}

@@ -84,7 +84,7 @@ class frontendAction extends baseAction {
      */
     protected function _pager($count, $pagesize) {
         $pager = new Page($count, $pagesize);
-        $pager->rollPage = 5;
+        $pager->rollPage = 8;
         $pager->setConfig('prev', '<');
         $pager->setConfig('theme', '%upPage% %first% %linkPage%  %downPage%');
         return $pager;
